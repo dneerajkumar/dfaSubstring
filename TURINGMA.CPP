@@ -49,7 +49,7 @@ int main()
 	clrscr();
 	setviewport(50,50,getmaxx()-50,getmaxy()-50,1);
 
-	int gd=DETECT,gm,temp=0;
+	int gd=DETECT,gm;
 
 	initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 
@@ -161,6 +161,7 @@ void skeleton ()
 	//Self loop
 	line(32,173,40,183);//Left-arrow
 	line(40,183,48,173);//Right-arrow
+	outtextxy(52,93,"0");
 
 	circle(180,200,25);//Second State
 	outtextxy(166,178,"q1");
@@ -174,6 +175,7 @@ void skeleton ()
 	line(420,110,420,175);//|v//jp2_1
 	line(170,165,180,175);//Left Arrow Wing
 	line(180,175,190,165);//Right Arrow Wing
+	outtextxy(280,65,"1");
 	//Self loop
 	line(160,263,160,218);//|^
 	line(160,264,200,264);//--
