@@ -12,6 +12,6 @@ non-final state by looking to the currently scanned input symbol. If the control
 one of the final state then the string is said to be "accepted" by the machine if not then the string will be considered as "Rejcted" any illegal symbol (except 0,1) will cause
 the machine to directly reject the string with out further scanning to the input string.
 
-Note: This Code Will Only Work With Turbo C++ Complier Only :)
+Note: This Code Will Only Work With Turbo C++ Complier :)
 
 Here are some of the snapshots of the application
